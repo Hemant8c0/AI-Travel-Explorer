@@ -6,8 +6,8 @@ from elevenlabs.client import ElevenLabs
 st.set_page_config(page_title="AI Voyager Pro", page_icon="🌎", layout="wide")
 
 # API Keys (Hackathon keys - Ensure these are active)
-genai.configure(api_key="AIzaSyBUDl5O85bqjHEIGMwdFxQwoglC50FTdTg")
-ELEVEN_API_KEY = "sk_f54676b97602a893d08e4cb6e36ecdc13d21f8ef8a12606c"
+genai.configure(api_key="")
+ELEVEN_API_KEY = ""
 client = ElevenLabs(api_key=ELEVEN_API_KEY)
 
 # --- UI DESIGN (VIDEO BG & GLASSMORPHISM) ---
